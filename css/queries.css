@@ -34,11 +34,20 @@
 /* Small phones to small tablets: from 481 to 767px; */
 /*-------------------------------------------------*/
 @media only screen and (max-width: 767px) {
-	body{font-size: 16px;}
+	
+    html,body {
+    padding-top: 0px;
+    font-size: 20px;
+   }
+   #title {
+      padding-top: 30px;
+      padding-bottom: 20px;
+   }
+
     h1 {font-size: 130%;}
      h2 {
     margin-top: 0px;
-    font-size: 50%;}
+    font-size: 60%;}
     .banner {
     margin: 0 auto;
     width: 98%;
